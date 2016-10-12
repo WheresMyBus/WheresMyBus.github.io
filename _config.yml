@@ -1,0 +1,11 @@
+name: Where's My Bus?
+author: Daniel Houtsma
+url: WheresMyBus.github.io
+
+nav:
+  - name: About
+    href: /about
+  - name: Team
+    href: /team
+  - name: Deliverables
+    href: /deliverables
