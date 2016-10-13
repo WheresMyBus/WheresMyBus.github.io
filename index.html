@@ -19,7 +19,7 @@ layout: page
 <div id="about">
   <h2>About</h2>
 
-  <p>Lorem impsum...</p>
+  <p>Lorem ipsum...</p>
 </div>
 
 <hr />
@@ -46,11 +46,12 @@ layout: page
   <h2>Deliverables</h2>
 
   {% for week in site.deliverables %}
-  <h3>Week {{ forloop.index }}</h3>
+  {% assign i = forloop.index %}
+  <h3>Week {{ i }}</h3>
 
   <ul>
     {% for file in week %}
-    <li><a href="{{ file.path }}">{{ file.name }}</a></li>
+    <li><a href="deliverables/week{{ i }}/{{ file.path }}">{{ file.name }}</a></li>
     {% endfor %}
   </ul>
   {% endfor %}

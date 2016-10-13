@@ -33,6 +33,8 @@ team:
       github_username: nbissiri
 
 deliverables:
+  - - name: Status Report
+      path: Bus_StatusReport1.pdf
 
 links:
   - name: GitHub Organization
