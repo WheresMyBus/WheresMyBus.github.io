@@ -15,17 +15,22 @@ team:
   members:
     - name: Becky Leslie
       cse_username: beleslie
+      github_username: beleslie
     - name: Bryce Martz
       cse_username: bmartz
+      github_username: bmartz
     - name: Daniel Houtsma
       cse_username: dhoutsma
       github_username: dhouty
     - name: David Li
       cse_username: lidav6
+      github_username: lidav6
     - name: Dylan Whitlow
       cse_username: whitldy
+      github_username: whitldy
     - name: Nick Bissiri
       cse_username: nbissiri
+      github_username: nbissiri
 
 deliverables:
 
