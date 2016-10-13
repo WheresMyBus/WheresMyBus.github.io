@@ -1,11 +1,36 @@
 name: Where's My Bus?
-author: Daniel Houtsma
-url: WheresMyBus.github.io
 
 nav:
   - name: About
-    href: /about
-  - name: Team
-    href: /team
+    href: "#about"
+  - name: Our Team
+    href: "#team"
   - name: Deliverables
-    href: /deliverables
+    href: "#deliverables"
+  - name: Links
+    href: "#links"
+
+team:
+  name: Team Bus
+  members:
+    - name: Becky Leslie
+      cse_username: beleslie
+    - name: Bryce Martz
+      cse_username: bmartz
+    - name: Daniel Houtsma
+      cse_username: dhoutsma
+      github_username: dhouty
+    - name: David Li
+      cse_username: lidav6
+    - name: Dylan Whitlow
+      cse_username: whitldy
+    - name: Nick Bissiri
+      cse_username: nbissiri
+
+deliverables:
+
+links:
+  - name: GitHub Organization
+    url: https://github.com/WheresMyBus
+  - name: Mailing List
+    url: https://mailman1.u.washington.edu/mailman/listinfo/wheresmybus

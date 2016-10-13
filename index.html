@@ -1,13 +1,69 @@
 ---
 layout: page
 ---
+<img id="logo" src="images/logo.svg" />
+
 <header class="masthead">
   <h1 class="masthead-title">
     <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+    <span>by {{ site.team.name }}</span>
   </h1>
+
   <nav class="masthead-nav">
     {% for nav in site.nav %}
     <a href="{{ nav.href }}">{{ nav.name }}</a>
     {% endfor %}
   </nav>
 </header>
+
+<div id="about">
+  <h2>About</h2>
+
+  <p>Lorem impsum...</p>
+</div>
+
+<hr />
+
+<div id="team">
+  <h2>Our Team</h2>
+
+  <ul>
+    {% for member in site.team.members %}
+    <li>
+      {{ member.name }}
+      (<a href="mailto:{{ member.cse_username }}@cs.washington.edu">{{ member.cse_username }}</a>)
+      {% if member.github_username %}
+      &mdash; <a href="https://github.com/{{ member.github_username }}">@{{ member.github_username }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<hr />
+
+<div id="deliverables">
+  <h2>Deliverables</h2>
+
+  {% for week in site.deliverables %}
+  <h3>Week {{ forloop.index }}</h3>
+
+  <ul>
+    {% for file in week %}
+    <li><a href="{{ file.path }}">{{ file.name }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
+
+<hr />
+
+<div id="links">
+  <h2>Links</h2>
+
+  <ul>
+    {% for link in site.links %}
+    <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
