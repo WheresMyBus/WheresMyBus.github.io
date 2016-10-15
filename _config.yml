@@ -33,13 +33,13 @@ team:
 deliverables:
   - - name: Status Report
       path: Bus_StatusReport1.pdf
-    - names: Product Description
+    - name: Product Description
       path: Bus_ProductDescription.pdf
-    - names: Use Cases
+    - name: Use Cases
       path: Bus_UseCases.pdf
-    - names: UI Diagrams
+    - name: UI Diagrams
       path: Bus_UIDiagrams.pdf
-    - names: Process Description
+    - name: Process Description
       path: Bus_ProcessDescription.pdf
 
 links:
