@@ -1,8 +1,6 @@
 name: Where's My Bus?
 
 nav:
-  - name: About
-    href: "#about"
   - name: Our Team
     href: "#team"
   - name: Deliverables
@@ -35,6 +33,14 @@ team:
 deliverables:
   - - name: Status Report
       path: Bus_StatusReport1.pdf
+    - names: Product Description
+      path: Bus_ProductDescription.pdf
+    - names: Use Cases
+      path: Bus_UseCases.pdf
+    - names: UI Diagrams
+      path: Bus_UIDiagrams.pdf
+    - names: Process Description
+      path: Bus_ProcessDescription.pdf
 
 links:
   - name: GitHub Organization
