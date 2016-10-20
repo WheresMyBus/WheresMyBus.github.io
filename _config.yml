@@ -41,6 +41,8 @@ deliverables:
       path: Bus_UIDiagrams.pdf
     - name: Process Description
       path: Bus_ProcessDescription.pdf
+  - - name: Status Report
+      path: Bus_StatusReport2.pdf
 
 links:
   - name: GitHub Organization
