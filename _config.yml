@@ -47,6 +47,8 @@ deliverables:
       path: Bus_DesignDocument.pdf
     - name: Presentation
       path: Bus_Presentation.pdf
+  - - name: Status Report
+      path: Bus_StatusReport3.pdf
 
 links:
   - name: GitHub Organization
