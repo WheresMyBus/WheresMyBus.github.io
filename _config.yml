@@ -51,7 +51,15 @@ deliverables:
       path: Bus_StatusReport3.pdf
 
 links:
+  - name: Product Website
+    url: https://WheresMyBus.github.io/android
   - name: GitHub Organization
     url: https://github.com/WheresMyBus
+  - name: Android Repository
+    url: https://github.com/WheresMyBus/android
+  - name: Where's My Bus API
+    url: https://github.com/WheresMyBus/api
+  - name: OneBusAway API
+    url: https://github.com/WheresMyBus/onebusaway
   - name: Mailing List
     url: https://mailman1.u.washington.edu/mailman/listinfo/wheresmybus
