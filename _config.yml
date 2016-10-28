@@ -57,9 +57,9 @@ links:
     url: https://github.com/WheresMyBus
   - name: Android Repository
     url: https://github.com/WheresMyBus/android
-  - name: Where's My Bus API
+  - name: Where's My Bus API Repository
     url: https://github.com/WheresMyBus/api
-  - name: OneBusAway API
+  - name: OneBusAway API Repository
     url: https://github.com/WheresMyBus/onebusaway
   - name: Mailing List
     url: https://mailman1.u.washington.edu/mailman/listinfo/wheresmybus
