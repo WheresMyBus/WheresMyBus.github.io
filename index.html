@@ -43,7 +43,13 @@ layout: page
 
   <ul>
     {% for file in week %}
-    <li><a href="deliverables/week{{ i }}/{{ file.path }}">{{ file.name }}</a></li>
+      <li>
+      {% if file.url %}
+        <a href="{{ file.url }}">{{ file.name }}</a>
+      {% else %}
+        <a href="deliverables/week{{ i }}/{{ file.path }}">{{ file.name }}</a>
+      {% endif %}
+      </li>
     {% endfor %}
   </ul>
   {% endfor %}

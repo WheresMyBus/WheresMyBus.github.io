@@ -49,6 +49,24 @@ deliverables:
       path: Bus_Presentation.pdf
   - - name: Status Report
       path: Bus_StatusReport3.pdf
+    - name: Zero Feature Release
+      path: wheresmybus-1.0.0.apk
+    - name: User Documentation
+      url: https://github.com/WheresMyBus/android/wiki/User-Documentation
+    - name: Developer Documentation
+      url: https://github.com/WheresMyBus/android/wiki/Developer-Documentation
+  - - name: Status Report
+      path: Bus_StatusReport4.pdf
+  - - name: Status Report
+      path: Bus_StatusReport5.pdf
+    - name: Beta Release
+      path: wheresmybus-1.1.0.apk
+  - - name: Status Report
+      path: Bus_StatusReport6.pdf
+  - - name: Status Report
+      path: Bus_StatusReport7.pdf
+    - name: Feature Complete Release
+      path: wheresmybus-1.2.0.apk
 
 links:
   - name: Product Website
