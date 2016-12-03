@@ -71,7 +71,7 @@ deliverables:
       path: Bus_UserTesting.pdf
     - name: Code Reviews
       path: Bus_CodeReviewDeliverable.pdf
-    - name: Update Use Cases
+    - name: Updated Use Cases
       path: Bus_NewUseCases.pdf
 
 links:
