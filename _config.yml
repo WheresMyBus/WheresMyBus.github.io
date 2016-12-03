@@ -67,6 +67,12 @@ deliverables:
       path: Bus_StatusReport7.pdf
     - name: Feature Complete Release
       path: wheresmybus-1.2.0.apk
+  - - name: User Testing
+      path: Bus_UserTesting.pdf
+    - name: Code Reviews
+      path: Bus_CodeReviewDeliverable.pdf
+    - name: Update Use Cases
+      path: Bus_NewUseCases.pdf
 
 links:
   - name: Product Website
