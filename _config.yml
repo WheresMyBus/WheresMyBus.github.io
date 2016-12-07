@@ -73,6 +73,12 @@ deliverables:
       path: Bus_CodeReviewDeliverable.pdf
     - name: Update Use Cases
       path: Bus_NewUseCases.pdf
+    - name: Release Candidate
+      path: wheresmybus-1.3.0.apk
+  - - name: SRS Postmortem
+      path: Bus_SRSPostmortem.pdf
+    - name: Final Release
+      path: wheresmybus-1.4.0.apk
 
 links:
   - name: Product Website
